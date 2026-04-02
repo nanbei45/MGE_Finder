@@ -15,10 +15,10 @@ def run_integron(input_genomic_file, output_dir):
     ],check=True)
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(description='使用ISEScan检测插入序列')
+    parser = argparse.ArgumentParser(description='')
     parser.add_argument('--input_genomic_file', type=str, required=True)
     parser.add_argument('--output_dir', type=str, required=True)
-    # 执行参数解析
+
     args = parser.parse_args()
 
     input_genomic_file = args.input_genomic_file
