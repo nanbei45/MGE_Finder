@@ -1,7 +1,7 @@
 import pandas as pd
 from pathlib import Path
 
-configfile: '/data/zqwangyansu/hl/human_gut_hdi/10442/find_mge/config.yaml'
+configfile: '/path/to/config.yaml'
 PATHS = config["paths"]
 
 rule all:
