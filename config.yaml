@@ -1,0 +1,13 @@
+paths:
+  input_genomic_file: '/data2/zqwangyansu/human_gut/10442/4_4mge/genomic_viral_arg.fasta'
+  input_protein_file: '/data2/zqwangyansu/human_gut/10442/4_4mge/protein_viral_arg.fasta'
+  output_genomad_dir: '/data2/zqwangyansu/human_gut/10442/4_4mge/genomad'
+  genomad_db: '/data/zqwangyansu/hl/database/genomad/genomad_db/'
+  output_isescan_dir: '/data2/zqwangyansu/human_gut/10442/4_4mge/isescan'
+  output_integron_dir: '/data2/zqwangyansu/human_gut/10442/4_4mge/integron'
+  diamond_mobileOG_db: '/data/zqwangyansu/hl/database/mobileOG-db/mobileOG-db_beatrix-1.6.dmnd'
+  output_mobileOG_dir: '/data2/zqwangyansu/human_gut/10442/4_4mge/mobileOG'
+  genomad_env: '/data/zqwangyansu/hl/envs/genomad_env.yaml'
+  isescan_env: '/data/zqwangyansu/hl/envs/isescan_env.yaml'
+  integron_env: '/data/zqwangyansu/hl/envs/integron_env.yaml'
+  mobileog_env: '/data/zqwangyansu/hl/envs/mobileog_env.yaml'
